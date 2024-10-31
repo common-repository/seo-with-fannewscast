@@ -1,0 +1,1 @@
+<div class="image"><a target="_blank" href="[%url%]"><img src="[%thumbnailImage%]" /></a></div>

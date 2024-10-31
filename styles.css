@@ -1,0 +1,79 @@
+.fnc_content *{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box; /* 2 */
+    box-sizing: content-box;
+}
+.fnc_content,.fnc_content .pagination, .fnc_content #fnc_list {position: relative;}
+.fnc_content .mostrecent .fnc_mostrecent a {font-weight: bold}
+.fnc_content .top24hr .fnc_top24hr a {font-weight: bold}
+.fnc_content .topweek .fnc_topweek a {font-weight: bold}
+.fnc_content .topmonth .fnc_topmonth a {font-weight: bold}
+.fnc_content .topyear .fnc_topyear a {font-weight: bold}
+.fnc_content table, .fnc_content table tr, .fnc_content table td{padding: 0; margin: 0; border: 0}
+.fnc_content .sortlinks {width: auto; margin: 0 auto;}
+.fnc_content .sortlinks td{text-align: center; padding: 0 10px;}
+.fnc_content div.clr {clear: both}
+.fnc_content .p_start .pager-first, .fnc_content .p_start .pager-previous-label, .fnc_content .p_start .pager-list-dots-left{display: none}
+.fnc_content .p_single{display: none}
+.fnc_content .p_end .pager-next-label, .fnc_content .p_end .pager-list-dots-right{display: none}
+.fnc_content .p_middle{}
+.fnc_content .pagination>table {width: 100%}
+.fnc_content .pagination p {margin: 0; padding: 0; text-align: left;}
+.fnc_content .pagination-inner {width: auto; margin-left: auto;}
+.fnc_content .pagination-inner td{text-align: center; padding: 0 10px; }
+#fnc_list {margin: 10px 0;}
+#fnc_list .entry{border-bottom: 1px solid #D0D0D0;display: block;list-style-type: none;padding-bottom: 10px;padding-top: 10px;}
+#fnc_list .image img {float: right;margin: 0 0 3px 3px;}
+#fnc_list span.title {color: #3B5998;display: block;font-weight: bold;}
+#fnc_list span.source {color: #808080;margin: 0;padding: 5px 0 2px;font-size: 12px;}
+#fnc_list span.contentdate {color: black;font-size: 12px;height: 15px;margin: 0;padding: 5px 0;}
+
+.fnc_content #clearsearchid {color: #999999;cursor: pointer;font-size: 12px;left: 284px;margin: 0;padding: 0;position: relative;text-align: right;top: -27px;width: 10px; line-height: 18px;}
+.fnc_content #search-bar fieldset {border: 0 none; padding: 0; margin: 0;height: 52px; line-height: 24px;}
+.fnc_content #search-bar fieldset #q {border: 1px solid #CCCCCC;font-size: 16px;height: 20px;margin: 0 0 5px 0;padding: 3px 37px 3px 5px;vertical-align: baseline;}
+.fnc_content #searchButton {border-left: 1px solid #CCCCCC;margin: 0 2px;padding: 0 0 0 5px;position: relative;right: 31px;top: 2px;width: 14px;height: 14px;border: 0 none;vertical-align: baseline;}
+.fnc_content #clearsearchid a {color: #999999!important;}
+.fnc_content .page-static-url{display: none;}
+
+.fnc_content .entry .sotial_rate {color: #666666;cursor: pointer;float: left;font-size: 16px;padding-left: 30px;text-decoration: none;}
+.fnc_content .entry .sotial_rate.default {background: url("[%plugin_path%]/images/icon_social_rank_default.gif") no-repeat scroll left center transparent;font-family: "Lucida Grande";font-size: 12px;}
+
+.fnc_content .entry .left_actions {float: left;padding: 3px 6px 3px 3px;width: 120px;}
+.fnc_content .entry .rate_breakdown {background-color: #F5F5F5;clear: both;color: #333333;display: none;font-size: 12px;margin-bottom: -10px;padding: 3px;}
+.fnc_content .entry.rate_detail  .rate_breakdown{ display: block;}
+.fnc_content .rate_breakdown table{border: medium none;margin: 0;padding: 0;}
+.fnc_content .rate_breakdown table td {border: medium none;margin: 0;padding: 0;}
+.fnc_content .entry .rate_breakdown .ds {display: inline-block;font-family: "Lucida Grande";font-size: 12px;font-weight: bold;}
+.fnc_content .entry .rate_breakdown .ds {display: inline-block;font-family: "Lucida Grande";font-size: 12px;font-weight: bold;}
+.fnc_content .entry p{margin-bottom: 3px}
+
+.fnc_content .entry .rate_breakdown .youtube_rate {background: url("[%plugin_path%]/images/icon_youtube.png") no-repeat scroll 0 0 transparent;padding-left: 20px;width: 40px;}
+.fnc_content .entry .rate_breakdown .fb_rate {background: url("[%plugin_path%]/images/icon_FB.png") no-repeat scroll 0 0 transparent;padding-left: 15px;width: 45px;}
+.fnc_content .entry .rate_breakdown .retweetcount_rate {background: url("[%plugin_path%]/images/icon_twitter.png") no-repeat scroll 0 0 transparent;padding-left: 15px;width: 45px;}
+.fnc_content .entry .rate_breakdown .linkedin_rate {background: url("[%plugin_path%]/images/icon_linkedin.png") no-repeat scroll 0 0 transparent;padding-left: 15px;width: 45px;}
+.fnc_content .entry .rate_breakdown .pinterest_rate {background: url("[%plugin_path%]/images/icon_pinterest.png") no-repeat scroll 0 0 transparent;padding-left: 15px;width: 45px;}
+.fnc_content .entry .rate_breakdown .google_rate {background: url("[%plugin_path%]/images/icon_gplus.png") no-repeat scroll 0 0 transparent;padding-left: 15px;width: 45px;}
+
+.fnc_content .fb_db_num {width: 90px}
+
+.fnc_content .entry.rate_detail .left_actions .close {display: block;}
+.fnc_content .entry.rate_detail .left_actions {background-color: #F5F5F5;}
+.fnc_content .entry .left_actions .close {background: url("[%plugin_path%]/images/icon_close_1.gif") no-repeat scroll center center transparent;cursor: pointer;display: none;float: right;height: 7px;width: 7px;}
+.fnc_content .rate_0 {display: none}
+.fnc_content td.fb_bd_text {   width: 220px;}
+
+.fnc_content ul.entrySocialActions {width: 70px; float: right; margin: 0; padding: 0;}
+
+.fnc_content .entry .right_actions {float: right;height: 16px;padding-top: 5px;width: 100px;visibility: hidden;}
+.fnc_content .entry.hover .right_actions {visibility:visible}
+.fnc_content ul.entrySocialActions li:before { content: "";}
+.fnc_content ul.entrySocialActions li {display: inline;margin: 0 0 0 5px;padding: 0 !important;float: right; background-image: none;}
+.fnc_content ul.entrySocialActions li.twitter-root {background: url("[%plugin_path%]/images/social-sharing-sprite.png") no-repeat scroll 0 -20px transparent;display: inline-block;height: 16px !important;width: 16px !important;}
+.fnc_content ul.entrySocialActions li.facebook-root {background: url("[%plugin_path%]/images/social-sharing-sprite.png") no-repeat scroll 0 0 transparent;display: inline-block;height: 16px !important;width: 16px !important;}
+.fnc_content ul.entrySocialActions li.linkedin-root {background: url("[%plugin_path%]/images/social-sharing-sprite.png") no-repeat scroll 0 -41px transparent;display: inline-block;height: 16px !important;width: 16px !important;}
+.fnc_content ul.entrySocialActions li>a{display: inline-block;height: 16px !important;width: 16px !important; content: "";}
+.fnc_content div.youtube {float: right;margin: 10px 0 0 10px;padding-right: 10px;position: relative;width: 100px;}
+.fnc_content div.youtube img.yt-thumb-overlay {bottom: 10px;height: auto;left: 2px;position: absolute;width: 25px;}
+.fnc_content ul.entrySocialActions li {  margin: 0 0 0 5px !important;}
+.post-content .fnc_content ul li {margin-left: 0;}
+.fnc_content div.pagination ul {width: auto;}
